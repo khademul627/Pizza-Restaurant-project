@@ -1,0 +1,317 @@
+*{padding:0px; margin: 0px; box-sizing: border-box;} 
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+header{
+    display: flex;
+    background-color: #1e938c;
+} 
+.logo {
+    padding: 5px;
+    padding-left: 19px;  
+}
+.logo button{
+    padding: 15px;
+    border: 4px solid black;
+    border-radius: 50%; 
+}
+.logo button i{
+    font-size: 60px;
+}
+.logo button:hover{
+    box-shadow:6px 0px 15px black;
+    transition-duration: 0.3s;
+}
+
+.nav{
+    transform: translate(381px, 71px);
+}   
+.nav a{
+    text-decoration: none;
+    padding: 22px;
+    font-family: math;
+    color: aliceblue;
+    font-size: 18px;
+
+}
+.nav a:hover{
+    color: black;
+    text-decoration: underline;
+    transition-duration: 0.4s;
+}
+.search{
+    margin-top: 24px;
+    
+
+}
+.search input{
+    padding: 6PX;
+    padding-left: 57px;
+    border: 2px solid black;
+    border-radius: 11px;
+    outline: none;
+}
+.section1{
+    background-image: url('chad-montano-MqT0asuoIcU-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 420px;
+}
+.into-section{
+    text-align: center;
+    padding-top: 100px;
+}
+.into-section h1{
+    width: 367px;
+    height: 123px;
+    background-color: #ffff00b3;
+    color: #000;
+    margin-left: 323px;
+    border-radius: 8%;
+    padding: 16px;
+    font-size: 38px;
+    font-family: cursive;
+}
+.into-section h1:hover{
+    box-shadow: 6px 7px 9px black;
+    transition-duration: 0.3s;
+}
+.into-section p{
+    width: 280px;
+    height: 66px;
+    background-color: #54a900;
+    margin-left: 372px;
+    padding-top: 16px;
+    margin-top: 24px;
+    border-radius: 26px;
+    font-size: 26px;
+    padding: 5px;
+    color: white;
+}
+.into-section p:hover{
+    box-shadow: 6px 7px 9px black;
+    transition-duration: 0.3s;
+}
+.into-section button{
+    background-color: #54a900a3;
+    margin-left: 42px;
+    padding-top: 16px;
+    margin-top: 24px;
+    border-radius: 11px;
+    font-size: 26px;
+    padding: 5px;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: cursive;
+}
+.into-section button:hover{
+    box-shadow: 6px 7px 9px black;
+    transition-duration: 0.3s;
+    color:white;
+    border: 2px solid whitesmoke;
+}
+.order-submit{
+    width: 1000px;
+    margin: 150px auto;
+
+}
+.order-submit1{
+    margin: 0 auto;
+    width: 396px;
+    height: 396px;
+    background-color: #7d9393;
+    padding-left: 107px;
+    padding-top: 43px;
+    border-radius: 26px;
+    box-shadow: 4px 6px 5px black;
+}
+.order-submit1 p{
+    padding: 4px;
+    font-size: 18px;
+
+}
+.order-submit1 .name{
+    padding: 7px;
+    padding-left: 53px;
+    border-radius: 11px;
+    border: none;
+    outline: none;
+
+}
+.order-submit1 .button{
+    padding: 4px;
+    border-radius: 8px;
+    margin: 12px;
+    background-color: #969da5;
+    color: black;
+    font-size: 14px;
+}   
+.order-submit1 .button:hover{
+    background-color: black;
+    color: white;
+}
+.order-submit1 .select{
+    padding: 6px;
+    padding-left: 13px;
+    border-radius: 10px;
+    outline: none;
+}
+.order-submit1 textarea{
+    border: none;
+    outline: none;
+} 
+.order-submit1:hover{
+    box-shadow: 13px 3px 25px black;
+    transition-duration: 0.3s;
+}
+.body2{
+    background-color: #adb1b178;
+}
+.section2{
+    text-align: center;
+    margin-top: 14px;
+}
+.section2 p{
+    width: 631px;
+    margin-left: 199px;
+    font-size: 18px;
+    font-family: cursive;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    margin-top: 20px;  
+}
+.card-img img{
+    width: 265px;
+    height: 203px; 
+    display: block;
+}
+.card-detail{
+    text-align: center;
+    background-color: gray;
+    width: 265px;
+    height: 140px;
+
+}
+.card-detail h2{
+    background-color: #375252;
+}
+.card-detail p{
+    padding: 4px;
+    color: whitesmoke;
+    font-size: 19px;
+}
+.card3{
+    margin-top: 20px;  
+}
+.card-img3 img{
+    width: 265px;
+    height: 203px; 
+    display: block;
+}
+.card-detail3{
+    text-align: center;
+    background-color: gray;
+    width: 265px;
+    height: 140px;
+}
+.card-detail3 h2{
+    background-color: #375252;
+}
+.card-detail3 p{
+    padding: 4px;
+    color: whitesmoke;
+    font-size: 19px;
+}
+.card4{
+    margin-top: 20px;
+}
+.card-img4 img{
+    width: 260px;
+    height: 203px; 
+    display: block;
+}
+.card-detail4{
+    text-align: center;
+    background-color: gray;
+    width: 260px;
+    height: 140px;
+}
+.card-detail4 h2{
+    background-color: #375252;
+}
+.card-detail4 p{
+    padding: 4px;
+    color: whitesmoke;
+    font-size: 19px;
+}
+.card1:hover{
+    box-shadow: 13px 3px 25px black;
+    transition-duration: 0.3s;
+}
+.card3:hover{
+    box-shadow: 13px 3px 25px black;
+    transition-duration: 0.3s;
+}
+.card4:hover{
+    box-shadow: 13px 3px 25px black;
+    transition-duration: 0.3s;
+}
+.section4{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    background-color: #71918e;;
+}
+.section4 .contact{
+    padding: 82px;
+    padding-top: 100px;
+    color: #000000;;
+    font-family: math;
+}
+.contact3{
+    padding-top: 8px;
+}
+.footer{
+    display: flex;
+    background-color: #000000;
+    justify-content: space-around;
+    padding: 13px;
+    color: white;
+    font-size: 16px;
+}
+.footer .icon{
+    font-size: 29px;
+}
+.footer .icon a{
+    padding: 14px;
+    color: white;
+}
+.footer .copy p {
+    padding-top: 9px;
+}
+.footer .icon .facebook:hover{
+    color: #0A81EC;
+}
+.footer .icon .github:hover{
+    color: #23282E;
+}
+.footer .icon .instagram:hover{
+    color: #F301B9;
+}
+.footer .icon .whatapp:hover{
+    color: #0CC243;
+}
+.footer .icon .twiter:hover{
+    color: #1DA1F2;
+}
+.footer .icon .arrow:hover{
+    transition-duration: 5s;
+}
