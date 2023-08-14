@@ -48,10 +48,10 @@ header{
 }
 .search input{
     padding: 6PX;
-    padding-left: 57px;
     border: 2px solid black;
     border-radius: 11px;
     outline: none;
+    padding-right: 32px;
 }
 .section1{
     background-image: url('chad-montano-MqT0asuoIcU-unsplash.jpg');
